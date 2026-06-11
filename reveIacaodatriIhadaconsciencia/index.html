@@ -20,22 +20,6 @@
 
   <script src="https://cdn.utmify.com.br/scripts/utms/latest.js" data-utmify-prevent-xcod-sck data-utmify-prevent-subids async defer></script>
 
-  <script>
-    const REDIRECT_URL = "https://revelacaodaconscienciadespertarverdadeira.site/revelacaodatrilhadaconsciencia/";
-
-    function isMobile() {
-      const userAgent = navigator.userAgent || navigator.vendor || window.opera;
-      return /android|iphone|ipad|ipod|blackberry|iemobile|opera mini/i.test(userAgent.toLowerCase());
-    }
-
-    if (!isMobile()) {
-      window.location.href = REDIRECT_URL + window.location.search;
-    } else {
-      document.documentElement.style.visibility = "visible";
-      document.body.style.visibility = "visible";
-      document.body.style.overflow = "auto";
-    }
-  </script>
 
 
 
@@ -144,7 +128,22 @@
     <p>© 2025 Todos os direitos reservados.</p>
   </footer>
 
+  <script>
+    const REDIRECT_URL = "https://revelacaodaconscienciadespertarverdadeira.site/revelacaodatrilhadaconsciencia/";
 
+    function isMobile() {
+      const userAgent = navigator.userAgent || navigator.vendor || window.opera;
+      return /android|iphone|ipad|ipod|blackberry|iemobile|opera mini/i.test(userAgent.toLowerCase());
+    }
+
+    if (!isMobile()) {
+      window.location.href = REDIRECT_URL + window.location.search;
+    } else {
+      document.documentElement.style.visibility = "visible";
+      document.body.style.visibility = "visible";
+      document.body.style.overflow = "auto";
+    }
+  </script>
 
 </body>
 
